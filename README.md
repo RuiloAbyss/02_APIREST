@@ -1,17 +1,5 @@
 # APIREST02 - Gestión de Usuarios
 
-## Portada
-
-**Materia:** Servicios Web  
-**Unidad:** 2  
-**Proyecto:** APIREST02  
-**Alumno:** [Tu Nombre]  
-**Fecha:** 29 de septiembre de 2025
-
----
-
-## Contenido
-
 ### Estructura del Proyecto
 
 ```
@@ -30,11 +18,11 @@
 
 ### Funcionalidades
 
-- **GET /users**: Listar todos los usuarios.
-- **GET /users/:id**: Obtener usuario por ID.
-- **POST /users**: Crear usuario (con validaciones).
-- **PUT /users/:id**: Actualizar usuario (con validaciones).
-- **DELETE /users/:id**: Eliminar usuario.
+- **GET /api/users**: Listar todos los usuarios.
+- **GET /api/users/:id**: Obtener usuario por ID.
+- **POST /api/users**: Crear usuario (con validaciones).
+- **PUT /api/users/:id**: Actualizar usuario (con validaciones).
+- **DELETE /api/users/:id**: Eliminar usuario.
 
 ### Validaciones Implementadas
 
