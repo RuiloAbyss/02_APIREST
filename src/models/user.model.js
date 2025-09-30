@@ -54,6 +54,7 @@ function updateUser(id, data){
 
     if(data.age && isNaN(Number(data.age))) return null;
     if(data.name === "" || data.email === "") return null;
+    if(data.active && typeof data.active !== "boolean") return null;
 
     users[index] = {
         ...users[index], //permite acceder a las propiedades del objeto original
