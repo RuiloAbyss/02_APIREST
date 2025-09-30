@@ -38,9 +38,9 @@
 
 ### Validaciones Implementadas
 
-- `name`: obligatorio, tipo string, no vacío.
-- `email`: obligatorio, tipo string, formato válido.
-- `age`: opcional, si existe debe ser número y mayor a 0.
+- `name`: obligatorio, tipo string.
+- `email`: obligatorio, tipo string.
+- `age`: opcional, si existe debe ser número.
 - `active`: opcional, debe ser booleano.
 
 ---
